@@ -1,0 +1,120 @@
+@font-face {
+    font-family: 'xtrabold';
+    src: url("results-summary-component-main/assets/fonts/static/HankenGrotesk-Bold.ttf") format('ttf');
+}
+@font-face {
+    font-family: 'nrmlabold';
+    src: url("results-summary-component-main/assets/fonts/static/HankenGrotesk-Medium.ttf") format('ttf');
+}
+body{
+    overflow: hidden;
+}
+#main-wind {
+    background-color: white;
+}
+
+.main-result {
+    width:100%;
+    text-align: center;
+    color: rgba(220, 220, 220, 0.753);
+    background-image: linear-gradient(to top, hsl(241, 81%, 54%) 10%,hsl(241, 81%, 54%) 40%, hsl(252, 100%, 67%) 100%);
+    border-radius: 20px;
+}
+
+.circular {
+    width: 120px;
+    height: 120px;
+    padding-top: 5px;
+    border-radius: 60px;
+    margin: 10px auto;
+    background-image: linear-gradient(to bottom, hsla(256, 72%, 46%, 1) 70%, hsla(241, 72%, 46%, 0));
+}
+
+.circular h1 {
+    font-weight: 800;
+}
+
+span {
+    color: white;
+    font-family: 'xtrabold';
+}
+
+.result {
+    padding: 5px;
+    font-family: 'nrmlabold';
+}
+
+.much {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 100%;
+    margin: 10px 0;
+    padding: 0 5px;
+    border-radius: 4px;
+    padding-top: 6px;
+}
+
+.much p {
+    font-weight: 600;
+}
+
+.spres {
+    color: darkblue;
+}
+
+.spnhund {
+    color: rgb(204, 197, 197);
+}
+
+.one {
+    background-image: linear-gradient(to right, hsl(0, 100%, 67%, 0.2) 70%, hsl(0, 100%, 67%, 0.1));
+}
+
+.two {
+    background-image: linear-gradient(to right, hsl(39, 100%, 56%, 0.2) 70%, hsl(39, 100%, 56%, 0.1));
+}
+
+.three {
+    background-image: linear-gradient(to right, hsl(166, 100%, 37%, 0.2) 70%, hsl(166, 100%, 37%, 0.1));
+}
+
+.four {
+    background-image: linear-gradient(to right, hsl(234, 85%, 45%, 0.2) 70%, hsl(234, 85%, 45%, 0.1));
+}
+
+#reaction {
+    color: hsl(0, 100%, 67%);
+}
+
+#memory {
+    color: hsl(39, 100%, 56%);
+}
+
+#verbal {
+    color: hsl(166, 100%, 37%);
+}
+
+#visual {
+    color: hsl(234, 85%, 45%);
+}
+
+.botn {
+    width: 100%;
+    height: 30px;
+    text-align: center;
+    padding-top: 6px;
+    border-radius: 120px;
+    background-color: rgba(6, 25, 87, 0.685);
+}
+
+.botn:hover {
+    background-image: linear-gradient(to top, hsl(241, 81%, 54%) 5%, hsl(252, 100%, 67%) 100%);
+}
+
+a{
+    text-decoration: none;
+    color: white !important;
+    font-weight: 600;
+}
+
